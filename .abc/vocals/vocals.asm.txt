@@ -1,0 +1,95 @@
+; armips 0.8
+;
+;
+; armips "vocals.asm.txt"
+;
+
+
+.gba
+
+
+region__ equ "USA"
+;;;region__ equ "Europe"
+;;;region__ equ "Japan"
+
+
+
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+.if region__ == "USA"
+
+.open "Mega Man Zero 4 (USA).gba",0x8000000
+.org 0x879c480
+
+
+.elseif region__ == "Europe"
+
+.open "Mega Man Zero 4 (Europe).gba",0x8000000
+.org 0x879c430
+
+
+.elseif region__ == "Japan"
+
+.open "Mega Man Zero 4 (Japan).gba",0x8000000
+.org 0x879f774
+
+
+.endif
+
+
+
+
+.area 0x42b1c
+
+.incbin "160_vocals"
+
+.endarea
+
+
+
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+.if region__ == "USA"
+
+.org 0x8138df4
+.dw 0x88a6e00
+
+
+.org 0x88a6e00
+.incbin "157_usa"
+
+
+
+.elseif region__ == "Europe"
+
+.org 0x8138da4
+.dw 0x88a6e00
+
+
+.org 0x88a6e00
+.incbin "157_europe"
+
+
+.endif
+
+
+
+
+; warning: loop addresses at end of each midi song 5-6
+;
+; # voices = 16-bit
+; 16-bit
+; soundfont = 32-bit ptr
+; voice table = 32-bit ptr
+; ch5
+; ch6
+
+
+
+.close

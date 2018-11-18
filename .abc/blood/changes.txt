@@ -1,2 +1,9 @@
-2018-11-16  opening cutscene
-2018-11-15  creation
+2018-11-18  creation (japan)
+- blood repositioning, orientation
+- rbcannon blood
+
+2018-11-16  opening cutscene (usa, europe)
+- v.claw blood
+
+2018-11-15  creation (usa, europe)
+- blood slash effect

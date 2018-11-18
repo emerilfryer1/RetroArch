@@ -1,0 +1,30 @@
+https://github.com/emerilfryer1/RetroArch/tree/mega-man-zero-4/.abc
+
+
+
+blood:
+
+2018-11-18  final boss cutscene (usa, europe)
+- lots of blood
+
+2018-11-18  creation (japan)
+- blood repositioning, orientation
+- rbcannon blood
+
+2018-11-16  opening cutscene (usa, europe)
+- v.claw blood
+
+2018-11-15  creation (usa, europe)
+- blood slash effect
+
+
+
+vocals:
+
+2018-11-15  creation (usa, europe)
+- opening, credits vocals
+
+
+
+discussion:
+https://www.romhacking.net/forum/index.php?topic=27330.0

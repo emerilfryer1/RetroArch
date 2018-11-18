@@ -1,1 +1,9 @@
-2018-11-15  creation
+https://github.com/emerilfryer1/RetroArch/tree/mega-man-zero-4/.abc/vocals
+
+
+2018-11-15  creation (usa, europe)
+- opening, credits vocals
+
+
+discussion:
+https://www.romhacking.net/forum/index.php?topic=27330.0

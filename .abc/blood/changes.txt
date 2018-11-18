@@ -1,6 +1,9 @@
 https://github.com/emerilfryer1/RetroArch/tree/mega-man-zero-4/.abc/blood
 
 
+2018-11-18  final boss cutscene (usa, europe)
+- lots of blood
+
 2018-11-18  creation (japan)
 - blood repositioning, orientation
 - rbcannon blood

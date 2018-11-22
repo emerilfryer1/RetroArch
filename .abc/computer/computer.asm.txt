@@ -1,1 +1,41 @@
+//
+// xkas-plus 14+1
+//
+//
+// xkas -o %FILE% computer.asm.txt
+//
 
+
+arch nes.cpu
+header
+
+
+org $c11a-$10
+incbin font
+
+
+org $123ed-$10
+incbin tilemap32
+
+
+org $12b3d-$10
+incbin tilemap32_attr
+
+
+// 07:D959: A0 00     LDY #$00
+//>07:D95B: B1 80     LDA ($80),Y @ $9801 = #$66
+
+org $15801-$10
+incbin tilemap
+
+
+org $b19b-$10
+incbin tilemap_destroy
+
+
+org $18102-$10
+incbin palette
+
+
+org $109c7-$10
+incbin enemypos

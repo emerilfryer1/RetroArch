@@ -1,0 +1,8 @@
+2018-11-21  ported for usa, europe
+- Metal Gear deployment
+- Correct warp of supercomputer room
+
+
+
+2013-01-02  TX-55 in Metal Gear @ Arty
+- https://www.romhacking.net/hacks/3777/

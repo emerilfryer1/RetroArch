@@ -39,3 +39,9 @@ incbin palette
 
 org $109c7-$10
 incbin enemypos
+
+
+org $184c0-$10
+
+// player pos
+db $68,$94

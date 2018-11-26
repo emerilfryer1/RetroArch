@@ -1,10 +1,10 @@
-release: 2018-11-18
+version:
 
-mmz4_usa = blood, vocals
+2018-11-18 -- mmz4_usa = blood, vocals
 
-mmz4_europe = blood, vocals
+2018-11-25 -- mmz4_europe = blood, vocals, logo
 
-rmz4_japan = blood
+2018-11-18 -- rmz4_japan = blood
 
 
 
@@ -12,6 +12,8 @@ rmz4_japan = blood
 
 source:
 https://github.com/emerilfryer1/RetroArch/tree/mega-man-zero-4/.abc
+
+
 
 
 
@@ -34,10 +36,21 @@ blood:
 
 
 
+
 vocals:
 
 2018-11-15  creation  (usa, europe)
 - opening, credits vocals
+
+
+
+
+
+logo:
+2018-11-25  creation  (europe)
+- usa title logo with animation
+
+
 
 
 

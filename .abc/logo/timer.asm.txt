@@ -1,0 +1,35 @@
+; armips 0.8
+;
+;
+; armips "logo.asm.txt"
+;
+
+
+.gba
+
+
+
+region equ "USA"
+
+
+
+.if region == "USA"
+.open "Mega Man Zero 3 (USA).gba",0x8000000
+
+
+; oam timer -- stop logo  (80ebb92)
+.org 0x80ebba8
+.dw 0x10d-1
+
+
+.close
+
+
+
+
+
+.else
+.error "Unknown region"
+
+
+.endif

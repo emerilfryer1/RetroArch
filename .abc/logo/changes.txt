@@ -1,0 +1,3 @@
+2018-11-28  creation  (Europe, USA)
+- port usa logo  (Europe)
+- fix timer error: intro layering  (USA)
